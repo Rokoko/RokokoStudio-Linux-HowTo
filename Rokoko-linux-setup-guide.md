@@ -124,7 +124,9 @@ Go to game options and next to executable click the `...` icons!
 Navigate to the Rokoko prefix directory configured in [Installing Rokoko studio on Linux with Lutris](#installing-rokoko-studio-on-linux-with-lutris) and find 
 the Rokoko executable in `drive_c > Program Files (x86) > Rokoko Electronics ApS > Rokoko Studio > Rokoko Studio.exe`
 
-- Click save again! 
+- Click save again!
+
+- *****************************Change the different versions in the Runner options panel because Rokoko Studio will not open********************
 
 Before clicking Play, note that the Rokoko installer will come up again! This is because Rokoko Studio will realise there is a newer version. The installation process will be
 repeated and at the end you'll need to click Stop manually again. On clicking play again, you'll be prompted to login:
