@@ -2,7 +2,7 @@
 
 It is possible to make the Rokoko stack work on Linux. However, at the moment this includes several steps, and the USB connections are not working for the time being!
 
-- The Ubuntu version used in this guide is Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+- The Ubuntu version used in this guide is Ubuntu 24.04.2 LTS (Noble Numbat)
 
 ## Rokoko studio
 
