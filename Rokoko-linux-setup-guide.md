@@ -126,8 +126,14 @@ the Rokoko executable in `drive_c > Program Files (x86) > Rokoko Electronics ApS
 
 - Click save again!
 
-- *****************************Change the different versions in the Runner options panel because Rokoko Studio will not open********************
+- If you get any errors regarding DirectX, graphics, etc, try chaning the Graphics versions in the Runner Options of Rokoko Studio in Lutris to the following:
 
+  
+![2](https://github.com/user-attachments/assets/1f659342-a766-43de-9660-861d3677d735)
+
+
+
+  
 Before clicking Play, note that the Rokoko installer will come up again! This is because Rokoko Studio will realise there is a newer version. The installation process will be
 repeated and at the end you'll need to click Stop manually again. On clicking play again, you'll be prompted to login:
 
@@ -136,7 +142,7 @@ At the time of writing the most recent version is `2.4.8.0` and you'll see it (o
 ![Screenshot From 2025-02-13 10-57-23](https://github.com/user-attachments/assets/1fdfb0f3-3a63-458b-887b-0777f7ccd30e)
 
 
-## Proton-GE
+## Proton-GE (Continue if you do not get your browser to open when attempting to login in Rokoko Studio)
 
 A well known community Proton fork, is Proton-GE, which uses the latest versions of wine, dxvk and vulkan-d3d, while the mainstream Proton uses more stable versions!
 Proton-GE, while cutting edge, allows more games to be played in the price of stability. In practice, this is what we need to setup.
@@ -217,15 +223,17 @@ Now we are ready to go back to Lutris. If you have chosen a different directory 
 
 In the runner options, with Advanced enabled select Custom for wine version! 
 
-![Select Wine Custom](wine-custom.png)
+![wine-custom](https://github.com/user-attachments/assets/1f45f1d9-5c54-4259-bad5-fe2646c47bbf)
+
+
 
 In the custom wine executable put the location of umu-run as shown in [Verify Installation](#verify-installation)
 
-![Insert UMU run executable](umu-run.png)
+![umu-run](https://github.com/user-attachments/assets/350a4dfa-7e99-4e30-bf16-ca862fad6c1e)
+
 
 Then go to system options and scroll down until you see `Environment variables` under `Game execution`!
 
-![Find Environment variables](image.png)
 
 We need to tell UMU now, where to find our preferred version of Proton! We do so with the PROTONPATH environment variable, as
 described in [UMU documentation](https://github.com/Open-Wine-Components/umu-launcher?tab=readme-ov-file#what-does-it-do)
@@ -233,16 +241,12 @@ described in [UMU documentation](https://github.com/Open-Wine-Components/umu-lau
 In the environment variables click Add and in the Key column put `PROTONPATH` and in Value column the location where Proton-GE 
 was extracted from [Install Proton-GE](#install-proton-ge)
 
-![PROTONPATH configuration](protonpath.png)
+![protonpath](https://github.com/user-attachments/assets/e64a685b-79e0-48c3-a130-cafbe96cf9aa)
+
 
 Click save!
 
 ## Run the application
-
-First, we need to make sure that our changes have taken effect. We can display the logs while running the application, by selecting `Show Logs`
-
-![Show Logs](show-logs.png)
-
 
 Then click Play!
 
@@ -255,27 +259,6 @@ Started initial process 175620 from gamemoderun /usr/bin/umu-run /home/rokoko/Do
 
 The application should start up! 
 
-At the point of writing, the UMU method with the versions described is the most reliable way to run Rokoko Studio and both Browser authentication and the UI should work.
-
-This advanced setup fixes the following issues described in [Rokoko Studio](/Rokoko%20Studio.md):
-
-1. Installation hangs (never exits), so both the basic installation and the update happen in a single run
-2. Authentication with a browser when using the Lutris proton-ge version
-3. UI not usable when using system wine (either version 9 or 10)
-
-
-
-
-
-
-
-
-
-
-
-
-
-========================================================================================================================
 #### Try out
 
 - Make sure your graphics behave properly by opening a Rokoko provided animation and playing the scenes!
