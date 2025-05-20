@@ -313,21 +313,3 @@ Connect your Glove (or suit!) to some power source and make sure it's connected 
 
 ![413367511-7c9a5ec3-a5b2-44e8-8288-239abbb038b3](https://github.com/user-attachments/assets/ae331fdb-7a43-4bf8-92a6-b5b86460f7e1)
 
-
-#### Troubleshooting
-
-##### Sign in with Browser not working
-
-This is a known issue with `wine-ge-8-26` . You can temporarily switch to the system wine version to get past the sign in screen, close Rokoko, switch back to
-`wine-ge-8-26` and then run Rokoko again! For a universal solution, you can follow [Advanced Setup](/Advanced%20Setup.md)
-
-##### UI is not working/buttons are not clickable
-
-This is a known issue with the system versions of wine (either 9 or 10). Switch to `wine-ge-8-26` described in [Setting up Lutris](#setting-up-lutris) or
-setup Proton to run Rokoko Studio following the instructions in [Advanced Setup](/Advanced%20Setup.md)
-
-##### Crashes and graphical issues
-
-Some crashes might be related to your Graphics hardware. You may find the [Graphics Setup Guide](/Graphics%20Guidelines.md) useful in deciphering the state of 
-graphics in Linux against your situation!
-
