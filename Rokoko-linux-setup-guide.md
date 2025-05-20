@@ -270,7 +270,10 @@ The application should start up!
 
 - Make sure your graphics behave properly by opening a Rokoko provided animation and playing the scenes!
 
-https://github.com/user-attachments/assets/8a18281b-5d8d-448a-9316-0a441c4cc4f4
+
+https://github.com/user-attachments/assets/70f7b3ef-b7c9-4f8f-8b56-653c16721989
+
+
 
 - USB pairing is not working at the moment, so if you want to pair a suit, you'll have to connect it to a Mac or Windows device in the same network. Pair it with the WiFi
 but use the local IP address of the Linux machine.
@@ -280,14 +283,15 @@ You can find the local IP using
 ifconfig 
 ```
 
-![image](https://github.com/user-attachments/assets/2fd4af5a-3cc3-4609-8038-37379a6c1a6d)
+![412908226-2fd4af5a-3cc3-4609-8038-37379a6c1a6d](https://github.com/user-attachments/assets/8f0b7d31-853d-4e4d-8c43-1759992e2643)
+
 
 Or 
 ```sh
 ip address show
 ```
+![412908658-bdb6edbd-ff52-4481-888f-08bda8e4652f](https://github.com/user-attachments/assets/14d94298-0ae4-4c42-bc79-4c0131afbd46)
 
-![image](https://github.com/user-attachments/assets/bdb6edbd-ff52-4481-888f-08bda8e4652f)
 
 In the above cases, the local ip is `192.168.0.25`
 
@@ -297,7 +301,7 @@ In the example below, a mac was used to pair a glove, with the Linux laptop, wit
 2. Click on the device (top right) and open wifi settings
 3. Provide the Wifi details and click advanced settings. Use the IP from the previous step
 
-![image](https://github.com/user-attachments/assets/929d9e98-9e03-4dd2-b98b-f23aba6a44bc)
+![413362240-929d9e98-9e03-4dd2-b98b-f23aba6a44bc](https://github.com/user-attachments/assets/6b255d94-0a95-4dea-b3a4-543783b308a0)
 
 ##### Unreal Engine integration with Rokoko Studio
 
@@ -305,10 +309,9 @@ Now, you can open Rokoko Studio again on Lutris!
 
 Connect your Glove (or suit!) to some power source and make sure it's connected to the wifi! It should then show up on the Rokoko Studio running on Linux!
 
-![Screenshot From 2025-02-14 17-16-36](https://github.com/user-attachments/assets/ea8b30ed-081a-4473-8958-ab43ec0c87a6)
+![413367576-ea8b30ed-081a-4473-8958-ab43ec0c87a6](https://github.com/user-attachments/assets/f18b17f4-1580-4b71-92cb-42aeff046529)
 
-
-![image](https://github.com/user-attachments/assets/7c9a5ec3-a5b2-44e8-8288-239abbb038b3)
+![413367511-7c9a5ec3-a5b2-44e8-8288-239abbb038b3](https://github.com/user-attachments/assets/ae331fdb-7a43-4bf8-92a6-b5b86460f7e1)
 
 
 #### Troubleshooting
