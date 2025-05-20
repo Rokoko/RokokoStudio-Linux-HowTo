@@ -8,7 +8,7 @@ It is possible to make the Rokoko stack work on Linux. However, at the moment th
 
 This guide uses Lutris as the tool to manage the location and running configuration of Rokoko studio.
 
-![Screenshot From 2025-02-13 10-39-05](https://github.com/user-attachments/assets/c4a89333-32d5-4127-be7e-bb460ca26d00)
+![412891379-c4a89333-32d5-4127-be7e-bb460ca26d00](https://github.com/user-attachments/assets/efe1a367-6f82-4a8a-99fc-75ae5224ec59)
 
 Support for Windows video games running on Linux is really good and this means that a lot of Windows applications can run as well! So don't fret when Lutris references video games, it's just all the work in recent years for Linux to run windows applications is focused on video games!
 
@@ -39,7 +39,8 @@ An extensive list of how to install Lutris can be found [here](https://lutris.ne
 
 - Go to Lutris preferences:
 
-![Screenshot From 2025-02-13 10-42-34](https://github.com/user-attachments/assets/15042122-fe34-44f2-8350-dfe30da25555)
+![412897521-15042122-fe34-44f2-8350-dfe30da25555](https://github.com/user-attachments/assets/57b30e3a-2164-4dbf-b130-008713f265b5)
+
 
 - Click Updates
 - Download wine-ge-8-26
@@ -48,12 +49,14 @@ Bare in mind that this is an older version (but it currently works quite well).
 
 Other options as runners can be found under the Runners section. Find wine, click the box icon and select any version you want to try!
 
-![Screenshot From 2025-02-13 10-45-43](https://github.com/user-attachments/assets/2fb3ca40-ba1e-40bb-bec9-23a36293f3a4)
+![412898865-2fb3ca40-ba1e-40bb-bec9-23a36293f3a4](https://github.com/user-attachments/assets/945f1f32-191c-43d1-b4ca-b4d95c624fa5)
+
 
 In the example below, wine-ge-8-26 and lutris-7.2.2 are installed. Both are different versions of wine. See the ( [Wine Flavours for advanced users](#wine-flavours-for-advanced-users)) section
 for a list of other community supported flavours!
 
-![image](https://github.com/user-attachments/assets/48979ebe-9e9d-4668-aec6-e82730e1257f)
+![412900001-48979ebe-9e9d-4668-aec6-e82730e1257f](https://github.com/user-attachments/assets/5b1af206-fefe-4feb-9e47-4857b2e257c1)
+
 
 ### Running Rokoko Studio on Linux
 
@@ -61,7 +64,8 @@ for a list of other community supported flavours!
 
 The first step is to download the official installer from Rokoko!
 
-![Screenshot From 2025-02-13 10-39-57](https://github.com/user-attachments/assets/9b060089-cb56-4ef0-a6d7-e668ffbc8530)
+![412894974-9b060089-cb56-4ef0-a6d7-e668ffbc8530](https://github.com/user-attachments/assets/3985a52f-328b-484c-bda3-07c94d1f2bec)
+
 
 At the point of writing, the downloaded version is `2.4.5.0` .
 
@@ -71,22 +75,24 @@ Adding a video game or windows application is fairly straightforward, but in the
 
 Having that in mind, the process is better controlled by choosing the `Add locally installed game` option! 
 
-![Screenshot From 2025-02-13 10-40-43](https://github.com/user-attachments/assets/03b7ae90-f8b7-4640-9a2e-933d99f06750)
+![412895663-03b7ae90-f8b7-4640-9a2e-933d99f06750](https://github.com/user-attachments/assets/ebdf9f13-2080-497d-8ea7-ce49d3f38f82)
+
 
 - Next step, under **Game Info**, complete the Name that you want to appear (e.g. Rokoko Studio) and for Runner choose `Wine (Runs Windows Games)`
 
-![Screenshot From 2025-02-13 10-41-00](https://github.com/user-attachments/assets/75f75d53-ee0a-4ed7-9248-77a8faddb767)
+![412895955-75f75d53-ee0a-4ed7-9248-77a8faddb767](https://github.com/user-attachments/assets/013242f5-23b2-4bcb-8242-b78032c49131)
+
 
 Under **Game options**:
 - choose the executable of the Rokoko studio that you downloaded
 - For wine prefix, click the `...` icon, create a new folder in your home directory called rokoko_wine (the name doesn't matter) and click save
 
-![Screenshot From 2025-02-13 10-41-41](https://github.com/user-attachments/assets/8506acc8-e5dc-44a8-bc27-733238f09b69)
+![412896540-8506acc8-e5dc-44a8-bc27-733238f09b69](https://github.com/user-attachments/assets/352ae7e5-7b87-468b-a5cb-bf0702c91036)
 
 
 Under **Runner options** select the wine version you want! If you don't see a System wine version, you can install wine on your system (follow the [Install Wine Guide](#Install Wine Guide) or [Setting up Lutris](#setting-up-lutris)
 
-![Screenshot From 2025-02-13 10-41-56](https://github.com/user-attachments/assets/02b3803b-7add-45a4-85b9-506b8381f81a)
+![412897221-02b3803b-7add-45a4-85b9-506b8381f81a](https://github.com/user-attachments/assets/5dd383f4-f8a3-4785-ae79-4a49e3cb4916)
 
 
 Click save.
@@ -95,15 +101,16 @@ Click save.
 
 Select Rokoko Studio from the Lutris main view and click Play
 
-![image](https://github.com/user-attachments/assets/7714b6ce-e7e4-4ffe-b4b7-2a702dd620df)
+![412902609-7714b6ce-e7e4-4ffe-b4b7-2a702dd620df](https://github.com/user-attachments/assets/0a920121-2ce9-4586-9589-3b7cc09b1181)
 
 This will bring the Rokoko installer up!
 
-![Screenshot From 2025-02-13 10-27-21](https://github.com/user-attachments/assets/89bf0191-68ee-4e07-bf69-1856282e0569)
+![412903576-89bf0191-68ee-4e07-bf69-1856282e0569](https://github.com/user-attachments/assets/edcc622a-f3bc-47ca-9414-b1f04581f7fc)
+
 
 Depending on the wine flavour you selected, you may see the message below pop up!
 
-![Screenshot From 2025-02-13 11-00-04](https://github.com/user-attachments/assets/ccee0b4b-e31e-4e0e-a769-f19901924613)
+![412902983-ccee0b4b-e31e-4e0e-a769-f19901924613](https://github.com/user-attachments/assets/68fa5e14-dd02-43dd-abd0-94e75b4bf47a)
 
 Click install! Mono runtime is important as is the .NET equivalent for Linux!
 
@@ -115,7 +122,7 @@ Since we configured our "Lutris Game" to run the installer, we now need to switc
 
 Click on the Rokoko Studio "Lutris Game" again, but instead of play, click the arrow up button next to it!
 
-![image](https://github.com/user-attachments/assets/c22be552-fd77-4fcd-b9e6-33528c477f9d)
+![412904847-c22be552-fd77-4fcd-b9e6-33528c477f9d](https://github.com/user-attachments/assets/b946c973-f74a-4ef0-a2ac-18f8fc40412e)
 
 Then click Configure!
 
