@@ -146,7 +146,7 @@ repeated and at the end you'll need to click Stop manually again. On clicking pl
 
 At the time of writing the most recent version is `2.4.8.0` and you'll see it (or a more recent one) at the bottom right of the opening window
 
-![Screenshot From 2025-02-13 10-57-23](https://github.com/user-attachments/assets/1fdfb0f3-3a63-458b-887b-0777f7ccd30e)
+![412906940-1fdfb0f3-3a63-458b-887b-0777f7ccd30e](https://github.com/user-attachments/assets/6409b66b-e0e0-4e5d-b6b0-34ba5676ae2b)
 
 
 ## Proton-GE (Continue if you do not get your browser to open when attempting to login in Rokoko Studio)
